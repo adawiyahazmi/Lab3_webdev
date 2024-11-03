@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #72978f; 
+}
+
+header {
+    background: #5a7d7c; 
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background: #8eb2af; 
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+nav a:hover {
+    background-color: #aecfcf;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Styling for each section */
+#biodata, #hobbies, #campus-life {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#biodata {
+    background-color: #cfe6e2; 
+}
+
+#hobbies {
+    background-color: #d9ece8; 
+}
+
+#campus-life {
+    background-color: #e5f3f1; 
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #6e8c89; 
+    padding: 10px;
+    text-align: left;
+    background-color: #f7fcfb; 
+}
+
+.photo img {
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hobbies img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.campus-life img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 1rem;
+    border-radius: 8px;
+}
